@@ -5,6 +5,7 @@ header {
 
 .header-logo {
   height: 60px;
+  margin-right: auto;
 }
 
 .header {
@@ -15,12 +16,67 @@ nav {
   text-align: right;
 }
 
+.nav-list {
+}
+
 .nav-item {
   list-style: none;
   display: inline-block;
+  margin: 0 30px;
+  line-height: 35px;
 }
 
 .header {
   display: flex;
+  justify-content: flex-end;
   margin: 0 auto;
+  color: white;
 }
+
+.main-img {
+  height: 650px;
+  width: 100%;
+  background-image: url("img/mv.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-text {
+  padding-top: 200px;
+}
+
+.main-title {
+  font-size: 64px;
+  margin-bottom: 10px;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+.main-sub-text {
+  font-size: 20px;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+.portfoilo-img {
+  display: flex;
+}
+
+.img1 {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
+.img {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
