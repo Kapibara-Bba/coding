@@ -60,8 +60,40 @@ nav {
   justify-content: center;
 }
 
+.main-portfoilo {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.portfoilo {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.portfoilo-text {
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  margin: 0 0 0 8px;
+  text-align: center;
+}
+
+.border {
+  width: 70px;
+  color: #ec715f;
+  margin-bottom: 30px;
+  border: solid 3px #ec715f;
+  display: flex;
+  margin: 0 auto;
+}
+
+.portfoilo-sub-text {
+  margin: 30px 0;
+}
+
 .portfoilo-img {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .img1 {
@@ -70,13 +102,123 @@ nav {
   background-position: center;
   width: 300px;
   height: 250px;
+  margin: 0 10px 10px 0;
 }
 
-.img {
+.img2 {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+}
+
+.img3 {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.img4 {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 90px 0;
+}
+
+.img5 {
   background-image: url(img/talk.jpg);
   background-size: cover;
   background-position: center;
   width: 300px;
   height: 250px;
+  margin: 0 10px 90px 0;
 }
 
+.img6 {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 90px;
+}
+
+.main-feature {
+  width: 100%;
+  background-color: white;
+}
+
+.feature {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature-strenght {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature-strenght1,
+.feature-strenght2,
+.feature-strenght3 {
+  width: 320px;
+  height: auto;
+  margin-bottom: 90px;
+}
+
+.fas {
+  font-size: 60px;
+}
+
+.strenght {
+  font-size: 20px;
+  color: #000000;
+}
+
+.main-profile {
+  background-color: #eceff1;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.myprofile {
+  display: flex;
+  justify-content: center;
+}
+
+.myimg {
+  width: 512px;
+  margin-bottom: 90px;
+}
+
+.myimage {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.mytext {
+  width: 250px;
+  height: 250px;
+}
+
+.myname {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.myskills {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
