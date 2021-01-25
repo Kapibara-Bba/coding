@@ -222,3 +222,28 @@ nav {
   font-size: 20px;
   margin-bottom: 5px;
 }
+
+.main-contact {
+  width: 100%;
+  background-color: white;
+}
+
+.contact {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-tel {
+  width: 400px;
+  text-align: center;
+}
+
+.sns {
+  width: 400px;
+  text-align: center;
+}
