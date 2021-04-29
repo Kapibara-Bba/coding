@@ -7,3 +7,20 @@
 .title {
   color: maroon;
 }
+
+.main-top {
+  width: 100%;
+  
+}
+
+.main-top-left {
+  background-color: aquamarine;
+  height: 100px;
+  width: 50%;
+}
+
+.main-top-right {
+  background-color: lightgreen;
+  height: 100px;
+  width: 50%;
+}
