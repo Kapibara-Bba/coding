@@ -24,3 +24,9 @@
   height: 100px;
   width: 50%;
 }
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: bisque;
+}
