@@ -51,3 +51,11 @@
 .footer-main {
   margin: 0 auto;
 }
+
+.login {
+  text-align: center;
+}
+
+.login_btn {
+  margin-top: 5px;
+}
