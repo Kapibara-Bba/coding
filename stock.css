@@ -3,3 +3,15 @@
   width: 100%;
   background-color: maroon;
 }
+
+nav {
+  text-align: right;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  line-height: 35px;
+  color: aliceblue;
+}
